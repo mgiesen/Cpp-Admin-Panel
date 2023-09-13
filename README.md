@@ -49,8 +49,8 @@ res.set_content("function_a() has been called", "plain/text");
 
 int main()
 {
-// Structuring admin panel functions
-std::map<std::string, ADMIN_PANEL::admin_function> admin_functions = {
+    // Structuring admin panel functions
+    std::map<std::string, ADMIN_PANEL::admin_function> admin_functions = {
 
         {"f1", {"Group 1", "Regularly used function", true, &ADMIN_PANEL_FUNCTIONS::function_a}},
         {"f2", {"Group 1", "Function B", false, &ADMIN_PANEL_FUNCTIONS::function_b}},
